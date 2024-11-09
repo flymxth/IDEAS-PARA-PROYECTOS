@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        rgb(110, 252, 157) 0%,
+        rgb(110, 252, 157) 50%,
+        black 50%,
+        black 100%
+    );
+
+   text-align: center;
+   padding-top: 300px;
+}
+
+h1 {
+    color: black;
+}
+
+span {
+    color: #fff;
+}
