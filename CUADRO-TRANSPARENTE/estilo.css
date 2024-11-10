@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('image/david-van-dijk-3LTht2nxd34-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #000;
+    transition: 0.5s;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.text-content {
+    color: white;
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 4em;
+    margin: 0;
+    margin-left: 35px;
+}
+
+.text-content h1 span {
+    display: block;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-top: -20px;
+    color: #000;
+    margin-left: 35px; 
+}
+
+.text-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    margin-left: 35px;
+}
+
+.text-content button {
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 35px;
+}
+
+.text-content button:hover {
+    background-color: #676666;
+    transition: 0.5s;
+}
+
+.image-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.arrow-left, .arrow-right {
+    font-size: 2em;
+    cursor: pointer;
+}
